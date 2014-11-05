@@ -26,9 +26,7 @@ header li {
     border-left: .3em solid hsla(262, 32%, 45%, 1);   
 }
 
-header li:first-of-type {
-    border-left: none; 
-}
+header li:first-of-type {border-left: none; }
 
 a {
     font-weight: bold;
@@ -43,13 +41,11 @@ ul {
 
 ul.photos { 
     float: left;
-    padding: 5rem 5rem;
+    padding: 5rem;
     background-color: hsla(264, 29%, 77%, 1);
 }
 
-.photos li {
-    padding-bottom: 1em;
-}
+.photos li {padding-bottom: 1em;}
 
 section {
     font-size: .8em;
