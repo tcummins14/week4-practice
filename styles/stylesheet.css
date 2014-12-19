@@ -59,6 +59,10 @@ a {
     color: hsla(360, 100%, 100%, 1); 
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style: none;
     padding-left: 0;
